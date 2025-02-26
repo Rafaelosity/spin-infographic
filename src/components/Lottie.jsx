@@ -16,6 +16,12 @@ const Lottie = ({ id, src, text, href}) => {
     }
   };
 
+  const pauze = (id) => {
+    if (dotLottieRefs[id]) {
+      dotLottieRefs[id].pause();
+    }
+  }
+
   const handleMouseEnter = (id) => {
     setIsHovered(true);
     play(id);
@@ -23,6 +29,7 @@ const Lottie = ({ id, src, text, href}) => {
 
   const handleMouseLeave = () => {
     setIsHovered(false);
+    pauze(id);
   };
 
   return (

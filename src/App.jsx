@@ -55,7 +55,7 @@ function App() {
           <Lottie 
           href=""
           id="iconTen"
-          src="https://lottie.host/0a0f940e-eb7a-4fe5-830d-77b40546c5e9/p8GrXU64mF.lottie"
+          src="https://lottie.host/6cdbfd9b-cab9-49d4-b451-6225e607262f/78qYiJ7klr.lottie"
           text="Hoe krijg ik grip op mijn financiën?" />
           <Lottie 
           href=""
