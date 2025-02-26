@@ -1,0 +1,126 @@
+.infographic_wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.infographic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  z-index: 1;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 1 / 1;
+}
+
+/* Tooltip */
+
+.tooltip {
+  position: absolute;
+  background-color: #253b7c;
+  color: #fff;
+  bottom: -50px;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 70%;
+  transform: translateX(50%);
+  transition: 300ms;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+.icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Individual icons */
+
+#iconOne {
+  width: 10vw;
+  top: 15.5vw;
+  left: 18.3vw;
+  z-index: 10;
+}
+
+#iconTwo {
+  width: 13.5vw;
+  top: 30.5vw;
+  left: 49vw;
+}
+
+#iconThree {
+  width: 16vw;
+  top: 30.6vw;
+  left: 66.9vw;
+}
+
+#iconFour {
+  width: 10.5vw;
+  top: 23.8vw;
+  left: 62.8vw;
+}
+
+#iconFive {
+  width: 15.7vw;
+  top: 7.8vw;
+  left: 65.5vw;
+}
+#iconSix {
+  width: 11.5vw;
+  top: 18.7vw;
+  left: 50.7vw;
+}
+
+#iconSeven {
+  width: 13vw;
+  top: 7vw;
+  left: 54.5vw;
+}
+
+#iconEight {
+  width: 15vw;
+  top: 7vw;
+  left: 40.5vw;
+}
+
+#iconNine {
+  width: 16vw;
+  top: 28.3vw;
+  left: 16.7vw;
+}
+
+#iconTen {
+  width: 13vw;
+  top: 18.9vw;
+  left: 35vw;
+}
+
+#iconEleven {
+  width: 20vw;
+  top: 4.5vw;
+  left: 19.9vw;
+}
+#iconTwelve {
+  width: 15vw;
+  top: 28.6vw;
+  left: 29.5vw;
+}

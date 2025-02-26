@@ -1,0 +1,12 @@
+.background_wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
