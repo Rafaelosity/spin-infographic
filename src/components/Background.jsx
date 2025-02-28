@@ -1,5 +1,4 @@
-
-import image from "../assets/background-01.svg";
+import image from "../assets/image/background-01.svg";
 import "./Background.css";
 
 
