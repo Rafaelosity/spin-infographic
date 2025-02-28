@@ -16,7 +16,7 @@
 body {
   font-family: "Source Sans 3", sans-serif;
   position: relative;
-  overflow: hidden;
+
   margin: 0;
   display: flex;
   place-items: center;
