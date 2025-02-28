@@ -2,7 +2,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-const Lottie = ({ id, src, text, href}) => {
+const Lottie = ({ id, src, text, href }) => {
   const [dotLottieRefs, setDotLottieRefs] = useState({});
   const [isHovered, setIsHovered] = useState(false);
 
@@ -16,41 +16,51 @@ const Lottie = ({ id, src, text, href}) => {
     }
   };
 
-  const pauze = (id) => {
+  const loop = (id) => {
+    if (dotLottieRefs[id]) {
+      dotLottieRefs[id].addEventListener('complete', () => {
+        play(id);
+      });
+    }
+  };
+
+  const pause = (id) => {
     if (dotLottieRefs[id]) {
       dotLottieRefs[id].pause();
     }
-  }
+  };
 
   const handleMouseEnter = (id) => {
     setIsHovered(true);
     play(id);
+    loop(id);
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (id) => {
     setIsHovered(false);
-    pauze(id);
+    pause(id);
   };
 
   return (
     <a 
-    	href={href}
+      href={href}
       target='_blank'
       id={id}
-      className="icon"
+      className={`icon ${id}`}
       onMouseEnter={() => handleMouseEnter(id)}
-      onMouseLeave={handleMouseLeave}
+      onMouseLeave={() => handleMouseLeave(id)}
     >
       <DotLottieReact
         src={src}
         dotLottieRefCallback={(dotLottie) => dotLottieRefCallback(id, dotLottie)}
       />
-         <div className='tooltip'>
-      {text}
-    </div>
+      <div className='tooltip'>
+        {text}
+      </div>
     </a>
   );
-}
+};
+
 Lottie.propTypes = {
   id: PropTypes.string.isRequired,
   src: PropTypes.string.isRequired,

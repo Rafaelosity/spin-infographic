@@ -1,5 +1,5 @@
 .infographic_wrapper {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -9,6 +9,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  max-height: 100vh;
+  top: -60px;
 }
 
 .icon {
@@ -33,7 +35,7 @@
   transition: 300ms;
   padding: 5px 10px;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tooltip::after {
@@ -52,75 +54,83 @@
   opacity: 1;
 }
 
+.iconOne:hover .tooltip {
+  left: -30px;
+  bottom: -50px;
+}
+.iconEleven:hover .tooltip {
+  bottom: 10px;
+  z-index: 100 !important;
+}
+
 /* Individual icons */
 
 #iconOne {
-  width: 10vw;
-  top: 15.5vw;
-  left: 18.3vw;
-  z-index: 10;
+  width: 10.9vw;
+  top: 13.1vw;
+  left: 15.7vw;
 }
 
 #iconTwo {
-  width: 13.5vw;
-  top: 30.5vw;
-  left: 49vw;
+  width: 14.5vw;
+  top: 29.6vw;
+  left: 49.1vw;
 }
 
 #iconThree {
-  width: 16vw;
-  top: 30.6vw;
-  left: 66.9vw;
+  width: 17.3vw;
+  top: 29.48vw;
+  left: 68.5vw;
 }
 
 #iconFour {
-  width: 10.5vw;
-  top: 23.8vw;
-  left: 62.8vw;
+  width: 11vw;
+  top: 22.2vw;
+  left: 64.1vw;
 }
 
 #iconFive {
-  width: 15.7vw;
-  top: 7.8vw;
-  left: 65.5vw;
+  width: 17vw;
+  top: 4.8vw;
+  left: 66.8vw;
 }
 #iconSix {
-  width: 11.5vw;
-  top: 18.7vw;
-  left: 50.7vw;
+  width: 12.2vw;
+  top: 17vw;
+  left: 50.9vw;
 }
 
 #iconSeven {
-  width: 13vw;
-  top: 7vw;
-  left: 54.5vw;
+  width: 14.3vw;
+  top: 4vw;
+  left: 54.7vw;
 }
 
 #iconEight {
-  width: 15vw;
-  top: 7vw;
-  left: 40.5vw;
+  width: 16.3vw;
+  top: 3.7vw;
+  left: 39.8vw;
 }
 
 #iconNine {
-  width: 16vw;
-  top: 28.3vw;
-  left: 16.7vw;
+  width: 17.3vw;
+  top: 27.3vw;
+  left: 14vw;
 }
 
 #iconTen {
-  width: 13vw;
-  top: 18.9vw;
-  left: 35vw;
+  width: 14.3vw;
+  top: 16.7vw;
+  left: 33.7vw;
 }
 
 #iconEleven {
-  width: 20vw;
-  top: 4.5vw;
-  left: 19.9vw;
+  width: 23vw;
+  top: 1vw;
+  left: 16.5vw;
 }
 #iconTwelve {
-  width: 15vw;
-  top: 28.6vw;
-  left: 29.5vw;
+  width: 15.5vw;
+  top: 28vw;
+  left: 28.4vw;
 }
