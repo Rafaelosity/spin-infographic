@@ -1,0 +1,32 @@
+/* Tooltip */
+
+.tooltip {
+  position: absolute;
+  background-color: #253b7c;
+  color: #fff;
+  bottom: -50px;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 70%;
+  transform: translateX(50%);
+  transition: 300ms;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+.icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

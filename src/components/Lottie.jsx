@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import Tooltip from './Tooltip';
+import './Lottie.css';
 
 const Lottie = ({ id, src, text, href }) => {
   const [dotLottieRefs, setDotLottieRefs] = useState({});
@@ -54,9 +56,7 @@ const Lottie = ({ id, src, text, href }) => {
         src={src}
         dotLottieRefCallback={(dotLottie) => dotLottieRefCallback(id, dotLottie)}
       />
-      <div className='tooltip'>
-        {text}
-      </div>
+      <Tooltip text={text} />
     </a>
   );
 };
