@@ -12,7 +12,7 @@
   transition: 300ms;
   padding: 5px 10px;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tooltip::after {
