@@ -1,4 +1,4 @@
-import image from "../assets/image/background-01.svg";
+import image from "../assets/image/background-illustration.svg";
 import "./Background.css";
 
 

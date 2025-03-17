@@ -1,17 +1,13 @@
 .background_wrapper {
-  position: absolute;
-  width: 90%;
-  height: auto;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 .background {
-  position: relative;
-  width: 100vw;
-  height: auto;
-  object-fit: contain;
-  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 60%;
 }

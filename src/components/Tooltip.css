@@ -4,29 +4,170 @@
   position: absolute;
   background-color: #253b7c;
   color: #fff;
-  bottom: -50px;
+
   visibility: hidden;
   opacity: 0;
-  max-width: 70%;
   transform: translateX(50%);
-  transition: 300ms;
-  padding: 5px 10px;
-  font-weight: 600;
-  font-size: 14px;
-}
 
+  padding: 0.5vw;
+  font-weight: 600;
+  font-size: 0.7vw;
+
+  transition: 300ms;
+}
 .tooltip::after {
   content: "";
   position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
   border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent #253b7c transparent;
 }
 
 .icon:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+#iconOne .tooltip {
+  bottom: -1.4vw;
+  left: -2vw;
+  width: 6.6vw;
+}
+
+#iconOne .tooltip::after {
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #253b7c transparent;
+}
+#iconTwo .tooltip {
+  bottom: -1vw;
+  left: 0vw;
+  width: 7vw;
+}
+
+#iconTwo .tooltip::after {
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+#iconThree .tooltip {
+  bottom: 7vw;
+  left: -8vw;
+  width: 6.7vw;
+}
+
+#iconThree .tooltip::after {
+  top: 50%;
+  left: 100%;
+  border-color: transparent transparent transparent #253b7c;
+}
+
+#iconFour .tooltip {
+  bottom: 6vw;
+  left: 5.5vw;
+  width: 7vw;
+}
+
+#iconFour .tooltip::after {
+  top: 50%;
+  right: 100%;
+  border-color: transparent #253b7c transparent transparent;
+}
+
+#iconFive .tooltip {
+  bottom: 6.3vw;
+  left: -4.7vw;
+  width: 6.7vw;
+}
+
+#iconFive .tooltip::after {
+  top: 100%;
+  left: 50%;
+  border-color: #253b7c transparent transparent transparent;
+}
+
+#iconSix .tooltip {
+  bottom: -1.2vw;
+  left: -3vw;
+  width: 6.7vw;
+}
+
+#iconSix .tooltip::after {
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+#iconSeven .tooltip {
+  bottom: 11.5vw;
+  left: -6vw;
+  width: 6.7vw;
+}
+
+#iconSeven .tooltip::after {
+  transform: translateX(-50%);
+  top: 100%;
+  left: 50%;
+  border-color: #253b7c transparent transparent transparent;
+}
+
+#iconEight .tooltip {
+  bottom: 6vw;
+  left: -7.5vw;
+  width: 6.5vw;
+}
+
+#iconEight .tooltip::after {
+  top: 50%;
+  left: 100%;
+  border-color: transparent transparent transparent #253b7c;
+}
+
+#iconNine .tooltip {
+  bottom: -3vw;
+  left: 0vw;
+  width: 6.8vw;
+}
+
+#iconNine .tooltip::after {
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+#iconTen .tooltip {
+  bottom: 1.5vw;
+  left: -0.5vw;
+  width: 6.7vw;
+}
+
+#iconTen .tooltip::after {
+  transform: translateX(-50%);
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent #253b7c transparent;
+}
+
+#iconEleven .tooltip {
+  bottom: 15vw;
+  left: -4vw;
+  width: 6.8vw;
+}
+
+#iconEleven .tooltip::after {
+  top: 100%;
+  left: 50%;
+  border-color: #253b7c transparent transparent transparent;
+}
+
+#iconTwelve .tooltip {
+  bottom: -3.3vw;
+  left: 0.5vw;
+  width: 6.7vw;
+}
+
+#iconTwelve .tooltip::after {
+  bottom: 100%;
+  right: 50%;
+  border-color: transparent transparent #253b7c transparent;
 }
