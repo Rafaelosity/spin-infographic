@@ -1,0 +1,19 @@
+.infographic_information {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.infographic_title {
+  color: #253b7c;
+  line-height: 1;
+  font-size: 2vw;
+  font-weight: 600;
+  padding: 0 0 1vw 0;
+}
+
+.infographic_details {
+  font-size: 0.8vw;
+  line-height: 1.5;
+  font-weight: 400;
+}

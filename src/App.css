@@ -1,12 +1,22 @@
 .infographic_wrapper {
-  width: 100%;
-  min-height: 100vh;
+  position: relative;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1vw;
+  color: #000;
+  border-radius: 4vw;
+  background-color: #fffff3;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .infographic {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  flex-direction: column;
+}
+
+.infographic_content {
+  position: relative;
+  display: flex;
   height: 100%;
+  width: 100%;
 }

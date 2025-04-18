@@ -1,90 +1,88 @@
 .icon {
   position: absolute;
   display: inline-block;
+  width: auto;
   height: auto;
-
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: contain;
 }
 
 .lottie {
+  padding: 0;
+  margin: 0;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
 }
 /* Individual icons */
 
 /* campfire */
 #iconOne {
-  z-index: 10;
-  width: 9.1vw;
-  top: 7.8vw;
-  left: 21.25vw;
+  width: 8vw;
+  top: 10vw;
+  left: 1vw;
 }
 
 /* golver */
 #iconTwo {
-  width: 12.5vw;
-  top: 21vw;
-  left: 49.2vw;
+  width: 10vw;
+  top: 20vw;
+  left: 25vw;
 }
 /*  crossroad */
 #iconThree {
-  width: 11vw;
-  top: 23.1vw;
-  left: 67vw;
+  width: 12vw;
+  top: 20vw;
+  left: 39vw;
 }
 /* digger  */
 #iconFour {
-  width: 9vw;
-  top: 15.6vw;
-  left: 61.9vw;
+  width: 7vw;
+  top: 18vw;
+  left: 36vw;
 }
 /* chicken */
 #iconFive {
-  width: 11vw;
-  top: 2.3vw;
-  left: 65.7vw;
+  width: 13vw;
+  top: 3vw;
+  left: 39vw;
 }
 /* map */
 #iconSix {
-  width: 9.8vw;
-  top: 10.7vw;
-  left: 51vw;
+  width: 8vw;
+  top: 12vw;
+  left: 28vw;
 }
 /* tent */
 #iconSeven {
-  width: 11.5vw;
-  top: 0vw;
-  left: 54.2vw;
+  width: 10vw;
+  top: 1vw;
+  left: 30vw;
 }
 /* riverjump */
 #iconEight {
-  width: 10vw;
-  top: 1.7vw;
-  left: 43vw;
+  width: 9.9vw;
+  top: 2.5vw;
+  left: 19.1vw;
 }
 /* treehouse */
 #iconNine {
-  width: 11vw;
-  top: 21vw;
-  left: 21.2vw;
+  width: 12vw;
+  top: 19vw;
+  left: 1vw;
 }
 /* fisher */
 #iconTen {
-  width: 12.2vw;
-  top: 10.2vw;
-  left: 36vw;
+  width: 10vw;
+  top: 11vw;
+  left: 15vw;
 }
 /*  lookout tower */
 #iconEleven {
-  width: 17.3vw;
-  top: -3.2vw;
-  left: 23.2vw;
+  width: 14vw;
+  top: 0.2vw;
+  left: 4vw;
 }
 /* appletree */
 #iconTwelve {
-  width: 11.5vw;
-  top: 20.7vw;
-  left: 32.3vw;
+  width: 10vw;
+  top: 19vw;
+  left: 12vw;
 }

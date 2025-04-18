@@ -1,0 +1,9 @@
+.infographic_header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.infographic_logo_wrapper {
+  margin-right: 2%;
+  width: 15vw;
+}

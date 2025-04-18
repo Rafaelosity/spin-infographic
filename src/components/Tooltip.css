@@ -28,20 +28,20 @@
 }
 
 #iconOne .tooltip {
-  bottom: -1.4vw;
-  left: -2vw;
-  width: 6.6vw;
+  top: 3vw;
+  left: 5vw;
+  width: 7vw;
 }
 
 #iconOne .tooltip::after {
-  bottom: 100%;
-  left: 50%;
-  border-color: transparent transparent #253b7c transparent;
+  top: 50%;
+  right: 100%;
+  border-color: transparent #253b7c transparent transparent;
 }
 #iconTwo .tooltip {
-  bottom: -1vw;
-  left: 0vw;
-  width: 7vw;
+  bottom: -3vw;
+  left: -2.5vw;
+  width: 7.5vw;
 }
 
 #iconTwo .tooltip::after {
@@ -51,9 +51,9 @@
 }
 
 #iconThree .tooltip {
-  bottom: 7vw;
+  bottom: 3vw;
   left: -8vw;
-  width: 6.7vw;
+  width: 7vw;
 }
 
 #iconThree .tooltip::after {
@@ -63,9 +63,9 @@
 }
 
 #iconFour .tooltip {
-  bottom: 6vw;
-  left: 5.5vw;
-  width: 7vw;
+  bottom: 2vw;
+  left: 3vw;
+  width: 10vw;
 }
 
 #iconFour .tooltip::after {
@@ -75,9 +75,9 @@
 }
 
 #iconFive .tooltip {
-  bottom: 6.3vw;
-  left: -4.7vw;
-  width: 6.7vw;
+  bottom: 9vw;
+  left: 2vw;
+  width: 7vw;
 }
 
 #iconFive .tooltip::after {
@@ -87,9 +87,9 @@
 }
 
 #iconSix .tooltip {
-  bottom: -1.2vw;
-  left: -3vw;
-  width: 6.7vw;
+  bottom: -3vw;
+  left: -6vw;
+  width: 9.5vw;
 }
 
 #iconSix .tooltip::after {
@@ -99,9 +99,9 @@
 }
 
 #iconSeven .tooltip {
-  bottom: 11.5vw;
-  left: -6vw;
-  width: 6.7vw;
+  bottom: 9vw;
+  left: -2vw;
+  width: 6.5vw;
 }
 
 #iconSeven .tooltip::after {
@@ -112,21 +112,21 @@
 }
 
 #iconEight .tooltip {
-  bottom: 6vw;
-  left: -7.5vw;
+  bottom: 12vw;
+  left: -1vw;
   width: 6.5vw;
 }
 
 #iconEight .tooltip::after {
-  top: 50%;
-  left: 100%;
-  border-color: transparent transparent transparent #253b7c;
+  top: 100%;
+  left: 50%;
+  border-color: #253b7c transparent transparent transparent;
 }
 
 #iconNine .tooltip {
-  bottom: -3vw;
-  left: 0vw;
-  width: 6.8vw;
+  bottom: -4vw;
+  left: -3vw;
+  width: 7vw;
 }
 
 #iconNine .tooltip::after {
@@ -136,8 +136,8 @@
 }
 
 #iconTen .tooltip {
-  bottom: 1.5vw;
-  left: -0.5vw;
+  bottom: -1vw;
+  left: 0vw;
   width: 6.7vw;
 }
 
@@ -149,9 +149,9 @@
 }
 
 #iconEleven .tooltip {
-  bottom: 15vw;
-  left: -4vw;
-  width: 6.8vw;
+  bottom: 13.5vw;
+  left: 4.5vw;
+  width: 6.5vw;
 }
 
 #iconEleven .tooltip::after {
@@ -161,9 +161,9 @@
 }
 
 #iconTwelve .tooltip {
-  bottom: -3.3vw;
-  left: 0.5vw;
-  width: 6.7vw;
+  bottom: -3.5vw;
+  left: -2vw;
+  width: 8vw;
 }
 
 #iconTwelve .tooltip::after {
