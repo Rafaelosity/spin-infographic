@@ -5,7 +5,7 @@ import "./Lottie.css";
 const LottieNoTooltip = ({ id, src, alt }) => {
   return (
     <div id={id} className="icon">
-      <DotLottieReact autoplay alt={alt} src={src} className="lottie" />
+      <DotLottieReact autoplay loop alt={alt} src={src} className="lottie" />
     </div>
   );
 };

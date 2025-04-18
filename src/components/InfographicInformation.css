@@ -9,11 +9,12 @@
   line-height: 1;
   font-size: 2vw;
   font-weight: 600;
-  padding: 0 0 1vw 0;
+  padding: 1vw;
 }
 
 .infographic_details {
-  font-size: 1vw;
+  font-size: 1.2vw;
   line-height: 1.5;
   font-weight: 400;
+  padding: 1vw;
 }

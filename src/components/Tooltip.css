@@ -18,7 +18,7 @@
 .tooltip::after {
   content: "";
   position: absolute;
-  border-width: 10px;
+  border-width: 0.8em;
   border-style: solid;
 }
 
@@ -149,8 +149,8 @@
 }
 
 #iconEleven .tooltip {
-  bottom: 13.5vw;
-  left: 4.5vw;
+  bottom: 10vw;
+  left: -2.5vw;
   width: 6.5vw;
 }
 

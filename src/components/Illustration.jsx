@@ -12,6 +12,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe zit ik er straks ook warmpjes bij?"
         onClick={() =>
           onIconClick({
+            id: "lunch",
             title: "Hoe zit ik er straks ook warmpjes bij?",
             detail_text:
               "U wilt straks vast niet in de kou zitten. Weet u of u straks genoeg heeft? Wilt u extra pensioen opbouwen voor later? En hoe zit het bijvoorbeeld met uw koopkracht na uw pensioendatum ",
@@ -26,6 +27,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe werkt pensioen in Nederland?"
         onClick={() =>
           onIconClick({
+            id: "golf",
             title: "Hoe werkt pensioen in Nederland?",
             detail_text:
               "Hoe is pensioen in Nederland geregeld en welke mogelijkheden heeft u zelf nog om uw financiële doelen te bereiken.",
@@ -39,6 +41,7 @@ const Illustration = ({ onIconClick }) => {
         text="Mijn vraag staat hier niet bij..."
         onClick={() =>
           onIconClick({
+            id: "boomBord",
             title: "Mijn vraag staat hier niet bij...",
             detail_text:
               "Heeft u een vraag die hier niet voorbij komt? Kijk dan wat u kunt doen om antwoord te krijgen.",
@@ -52,6 +55,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe zit het met de toekomst van mijn pensioen?"
         onClick={() =>
           onIconClick({
+            id: "graven",
             title: "Hoe zit het met de toekomst van mijn pensioen?",
             detail_text:
               "We richten onze blik op de toekomst, want wie nu zaait zal straks oogsten. Wat gaat er door de Wet toekomst pensioenen veranderen aan uw pensioen en wat niet.?",
@@ -65,6 +69,7 @@ const Illustration = ({ onIconClick }) => {
         text="Wat kan ik doen als ik krap bij kas zit?"
         onClick={() =>
           onIconClick({
+            id: "kip",
             title: "Wat kan ik doen als ik krap bij kas zit?",
             detail_text:
               "Krijg grip op de k(n)ip! Tools en bespaartips om financieel gezond te worden en te blijven",
@@ -78,6 +83,7 @@ const Illustration = ({ onIconClick }) => {
         text="Waar vind ik info over belastingen en toeslagen?"
         onClick={() =>
           onIconClick({
+            id: "kaart",
             title: "Waar vind ik info over belastingen en toeslagen?",
             detail_text:
               "We helpen u op weg in de wereld van onder andere loonbelasting,loonheffingskorting en toeslagen.",
@@ -91,6 +97,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe werkt het met beleggingen?"
         onClick={() =>
           onIconClick({
+            id: "tent",
             title: "Hoe werkt het met beleggingen?",
             detail_text:
               "SPIN belegt voor uw pensioen. Wat komt daarbij kijken, hoe staat het met de rendementen (is het goed of slecht weer?) en wat kunt u zelf nog kiezen?",
@@ -104,6 +111,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe werkt met pensioen gaan?"
         onClick={() =>
           onIconClick({
+            id: "rivier",
             title: "Hoe werkt met pensioen gaan?",
             detail_text:
               "Houd uw voeten droog en kom erachter welke keuzes u heeft als u met pensioen gaat. En wat doen anderen eigenlijk?",
@@ -117,6 +125,7 @@ const Illustration = ({ onIconClick }) => {
         text="Wat als  mijn leven verandert?"
         onClick={() =>
           onIconClick({
+            id: "huisboom",
             title: "Wat als  mijn leven verandert?",
             detail_text:
               "Steil omhoog of juist naar beneden? Reizen, scheiden, een eerste huis, trouwen of kinderen. Wat doen deze en andere ups en downs met uw financiën?",
@@ -130,6 +139,7 @@ const Illustration = ({ onIconClick }) => {
         text="Hoe krijg ik grip op mijn financiën?"
         onClick={() =>
           onIconClick({
+            id: "visser",
             title: "Hoe krijg ik grip op mijn financiën?",
             detail_text:
               "Tips en hulp bij (be)sparen, toeslagen, AOW en hoe u inzicht krijgt in uw inkomsten en uitgaven. Zodat niets u meer door de vingers glipt.",
@@ -139,14 +149,15 @@ const Illustration = ({ onIconClick }) => {
       />
       <Lottie
         id="iconEleven"
-        src="https://lottie.host/405c0c19-3bc6-4652-9eea-5358c1bbd057/4eAHukybqJ.lottie"
+        src="https://lottie.host/ae15294d-82b8-44c7-a54d-5130f8b847b5/jXcvPSZbgB.lottie"
         text="Wat is er geregeld bij IBM?"
         onClick={() =>
           onIconClick({
+            id: "toren",
             title: "Wat is er geregeld bij IBM?",
             detail_text:
               "Krijg zicht op onder andere het solidariteitsfonds en de verzekeringen en collectiviteitskortingen die IBM aanbiedt.",
-            src: "https://lottie.host/405c0c19-3bc6-4652-9eea-5358c1bbd057/4eAHukybqJ.lottie",
+            src: "https://lottie.host/ae15294d-82b8-44c7-a54d-5130f8b847b5/jXcvPSZbgB.lottie",
           })
         }
       />
@@ -156,6 +167,7 @@ const Illustration = ({ onIconClick }) => {
         text="Welke pensioen-regelingen heeft SPIN?"
         onClick={() =>
           onIconClick({
+            id: "boom",
             title: "Welke pensioen-regelingen heeft SPIN?",
             detail_text:
               "Hoe is uw pensioen bij SPIN geregeld. Niet alleen voor uw oude dag, maar ook als u onverhoopt ziek wordt of overlijdt. Het leven loopt niet altijd volgens plan.",

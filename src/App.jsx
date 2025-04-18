@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import "./App.css";
+
 import Illustration from "./components/Illustration.jsx";
 import HeaderLogo from "./components/HeaderLogo.jsx";
 import InfographicInformation from "./components/InfographicInformation.jsx";
