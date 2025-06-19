@@ -1,12 +1,8 @@
-import PropTypes from 'prop-types';
-import './Tooltip.css';
+import PropTypes from "prop-types";
+import "./Tooltip.css";
 
 const Tooltip = ({ text }) => {
-  return (
-    <div className='tooltip'>
-      {text}
-    </div>
-  );
+  return <div className="tooltip">{text}</div>;
 };
 
 Tooltip.propTypes = {

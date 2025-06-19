@@ -9,13 +9,13 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconOne"
         src="https://lottie.host/b344e99e-bd5f-4b37-a513-7b53ee86939c/nRoHbxUrri.lottie"
-        text="Hoe zit ik er straks ook warmpjes bij?"
+        text="Geld voor later"
         onClick={() =>
           onIconClick({
             id: "lunch",
             title: "Hoe zit ik er straks ook warmpjes bij?",
             detail_text:
-              "U wilt straks vast niet in de kou zitten. Weet u of u straks genoeg heeft? Wilt u extra pensioen opbouwen voor later? En hoe zit het bijvoorbeeld met uw koopkracht na uw pensioendatum ",
+              "U wilt straks vast niet in de kou zitten. Weet u of u straks genoeg heeft? Wilt u extra pensioen opbouwen voor later? En hoe zit het bijvoorbeeld met uw koopkracht na uw pensioendatum. ",
             src: "https://lottie.host/b344e99e-bd5f-4b37-a513-7b53ee86939c/nRoHbxUrri.lottie",
           })
         }
@@ -24,7 +24,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconTwo"
         src="https://lottie.host/9cd71201-7da1-4408-9bfe-f6744b0fa16c/sQ62EraHQw.lottie"
-        text="Hoe werkt pensioen in Nederland?"
+        text="Pensioen in Nederland"
         onClick={() =>
           onIconClick({
             id: "golf",
@@ -38,7 +38,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconThree"
         src="https://lottie.host/f15437bc-471f-4bcc-bd07-48c5c02e5289/TskXsS9Fa2.lottie"
-        text="Mijn vraag staat hier niet bij..."
+        text="Andere vraag?"
         onClick={() =>
           onIconClick({
             id: "boomBord",
@@ -52,7 +52,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconFour"
         src="https://lottie.host/6ad9680a-b47c-4f8d-b004-77f5fd736ec7/7Pvg297ZwC.lottie"
-        text="Hoe zit het met de toekomst van mijn pensioen?"
+        text="Nieuwe pensioenregels"
         onClick={() =>
           onIconClick({
             id: "graven",
@@ -66,13 +66,13 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconFive"
         src="https://lottie.host/3e6b9384-ce26-4e44-8321-8bf3a30a874f/Hh23n6npCf.lottie"
-        text="Wat kan ik doen als ik krap bij kas zit?"
+        text="Grip op geld"
         onClick={() =>
           onIconClick({
             id: "kip",
-            title: "Wat kan ik doen als ik krap bij kas zit?",
+            title: "Hoe krijg ik grip op mijn financiën",
             detail_text:
-              "Krijg grip op de k(n)ip! Tools en bespaartips om financieel gezond te worden en te blijven",
+              "Krijg grip op dKrijg grip op uw k(n)ip! Tips en hulp bij (be)sparen, toeslagen, AOW en hoe u inzicht krijgt in uw inkomsten en uitgaven.e k(n)ip! Tools en bespaartips om financieel gezond te worden en te blijven.",
             src: "https://lottie.host/3e6b9384-ce26-4e44-8321-8bf3a30a874f/Hh23n6npCf.lottie",
           })
         }
@@ -80,13 +80,13 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconSix"
         src="https://lottie.host/150fdbb8-9792-47a3-a39c-a7f1f0f27233/NNwjD78olc.lottie"
-        text="Waar vind ik info over belastingen en toeslagen?"
+        text="Belasting en meer"
         onClick={() =>
           onIconClick({
             id: "kaart",
             title: "Waar vind ik info over belastingen en toeslagen?",
             detail_text:
-              "We helpen u op weg in de wereld van onder andere loonbelasting,loonheffingskorting en toeslagen.",
+              "We helpen u op weg in de wereld van onder andere loonbelasting, loonheffingskorting en toeslagen.",
             src: "https://lottie.host/150fdbb8-9792-47a3-a39c-a7f1f0f27233/NNwjD78olc.lottie",
           })
         }
@@ -94,7 +94,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconSeven"
         src="https://lottie.host/6f8245af-eb0f-4fad-a7bc-ba1c0095de15/ZeHTkXM6pr.lottie"
-        text="Hoe werkt het met beleggingen?"
+        text="Beleggingen"
         onClick={() =>
           onIconClick({
             id: "tent",
@@ -108,7 +108,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconEight"
         src="https://lottie.host/a38e8613-3f66-495c-95e4-e7edba22d71f/jBCmLhJLSd.lottie"
-        text="Hoe werkt met pensioen gaan?"
+        text="Met pensioen"
         onClick={() =>
           onIconClick({
             id: "rivier",
@@ -122,21 +122,21 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconNine"
         src="https://lottie.host/6c7ef318-af02-4613-8507-4fc630be988c/xM4vK1gbWm.lottie"
-        text="Wat als  mijn leven verandert?"
+        text="Wat gebeurt er bij.."
         onClick={() =>
           onIconClick({
             id: "huisboom",
             title: "Wat als  mijn leven verandert?",
             detail_text:
-              "Steil omhoog of juist naar beneden? Reizen, scheiden, een eerste huis, trouwen of kinderen. Wat doen deze en andere ups en downs met uw financiën?",
+              "Reizen, scheiden, een eerste huis, trouwen of kinderen. Wat doen deze en andere ups en downs met uw financiën?",
             src: "https://lottie.host/6c7ef318-af02-4613-8507-4fc630be988c/xM4vK1gbWm.lottie",
           })
         }
       />
-      <Lottie
+      {/* <Lottie
         id="iconTen"
         src="https://lottie.host/69e4f5a1-c8e8-4b1a-8223-54c12c37e4f7/vufvM0Nand.lottie"
-        text="Hoe krijg ik grip op mijn financiën?"
+        text="Grip op geld"
         onClick={() =>
           onIconClick({
             id: "visser",
@@ -146,11 +146,11 @@ const Illustration = ({ onIconClick }) => {
             src: "https://lottie.host/69e4f5a1-c8e8-4b1a-8223-54c12c37e4f7/vufvM0Nand.lottie",
           })
         }
-      />
+      /> */}
       <Lottie
         id="iconEleven"
         src="https://lottie.host/ae15294d-82b8-44c7-a54d-5130f8b847b5/jXcvPSZbgB.lottie"
-        text="Wat is er geregeld bij IBM?"
+        text="Bijna met pensioen"
         onClick={() =>
           onIconClick({
             id: "toren",
@@ -164,7 +164,7 @@ const Illustration = ({ onIconClick }) => {
       <Lottie
         id="iconTwelve"
         src="https://lottie.host/e5d725da-970e-44fe-aecf-d83998e002a3/mdrNLoKE8M.lottie"
-        text="Welke pensioen-regelingen heeft SPIN?"
+        text="SPIN pensioen"
         onClick={() =>
           onIconClick({
             id: "boom",

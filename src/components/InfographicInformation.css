@@ -2,6 +2,7 @@
   height: 100%;
   width: 50%;
   position: relative;
+  padding: 1vw;
 }
 
 .infographic_title {
@@ -9,12 +10,11 @@
   line-height: 1;
   font-size: 2vw;
   font-weight: 600;
-  padding: 1vw;
+  padding-bottom: 2vw;
 }
 
 .infographic_details {
-  font-size: 1.2vw;
+  font-size: 1vw;
   line-height: 1.5;
   font-weight: 400;
-  padding: 1vw;
 }
