@@ -31,6 +31,7 @@ function App() {
           detail_text={cardData.detail_text}
           src={cardData.src}
           id={cardData.id}
+          url={cardData.url}
           onClose={handleCloseCard}
         />
       )}
