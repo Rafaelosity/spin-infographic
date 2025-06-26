@@ -76,7 +76,7 @@ const Illustration = ({ onIconClick }) => {
             id: "kip",
             title: "Hoe krijg ik grip op mijn financiën",
             detail_text:
-              "Krijg grip op dKrijg grip op uw k(n)ip! Tips en hulp bij (be)sparen, toeslagen, AOW en hoe u inzicht krijgt in uw inkomsten en uitgaven.e k(n)ip! Tools en bespaartips om financieel gezond te worden en te blijven.",
+              "Krijg grip op uw k(n)ip! Tips en hulp bij (be)sparen, toeslagen, AOW en hoe u inzicht krijgt in uw inkomsten en uitgaven.",
             src: "https://lottie.host/3e6b9384-ce26-4e44-8321-8bf3a30a874f/Hh23n6npCf.lottie",
             url: "https://spin.nl/content/grip-op-geld/",
           })
