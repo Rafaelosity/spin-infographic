@@ -13,7 +13,7 @@ const Illustration = ({ onIconClick }) => {
         onClick={() =>
           onIconClick({
             id: "lunch",
-            title: "Hoe zit ik er straks ook warmpjes bij?",
+            title: "Hoe zit ik er straks warmpjes bij?",
             detail_text:
               "U wilt straks vast niet in de kou zitten. Weet u of u straks genoeg heeft? Wilt u extra pensioen opbouwen voor later? En hoe zit het bijvoorbeeld met uw koopkracht na uw pensioendatum. ",
             src: "https://lottie.host/b344e99e-bd5f-4b37-a513-7b53ee86939c/nRoHbxUrri.lottie",
@@ -61,9 +61,9 @@ const Illustration = ({ onIconClick }) => {
             id: "graven",
             title: "Hoe zit het met de toekomst van mijn pensioen?",
             detail_text:
-              "We richten onze blik op de toekomst, want wie nu zaait zal straks oogsten. Wat gaat er door de Wet toekomst pensioenen veranderen aan uw pensioen en wat niet.?",
+              "We richten onze blik op de toekomst, want wie nu zaait zal straks oogsten. Wat gaat er door de Wet toekomst pensioenen veranderen aan uw pensioen en wat niet?",
             src: "https://lottie.host/6ad9680a-b47c-4f8d-b004-77f5fd736ec7/7Pvg297ZwC.lottie",
-            url: "https://spin.nl/content/nieuwe-pensioenregels/",
+            url: "https://spin.nl/nieuw-pensioen-stelsel/",
           })
         }
       />
@@ -119,9 +119,9 @@ const Illustration = ({ onIconClick }) => {
         onClick={() =>
           onIconClick({
             id: "rivier",
-            title: "Hoe werkt met pensioen gaan?",
+            title: "Wat is belangrijk voor mij als gepensioneerde?",
             detail_text:
-              "Wat is belangrijk voor mij als gepensioneerde? Ontdek wat voor u als gepensioneerde van SPIN goed is om te weten. Bijvoorbeeld wanneer u uw pensioenuitkering kunt verwachten of wat u moet doen als u – hop-  verhuist naar het buitenland 😊.",
+              "Ontdek wat voor u als gepensioneerde van SPIN goed is om te weten. Bijvoorbeeld wanneer u uw pensioenuitkering kunt verwachten of wat u moet doen als u – hop-  verhuist naar het buitenland 😊.",
             src: "https://lottie.host/a38e8613-3f66-495c-95e4-e7edba22d71f/jBCmLhJLSd.lottie",
             url: "https://spin.nl/wat-gebeurt-er-bij/met-pensioen-gaan/",
           })
@@ -150,8 +150,8 @@ const Illustration = ({ onIconClick }) => {
         onClick={() =>
           onIconClick({
             id: "toren",
-            title: "Wat is er geregeld bij IBM?",
-            detail_text: `Bijna met pensioen? Zo werkt het.
+            title: "Bijna met pensioen?",
+            detail_text: `
             Wanneer u met pensioen gaat, kunt u allerlei keuzes maken. We helpen u hier graag bij met uitleg, voorbeelden en handige hulpmiddelen.`,
             src: "https://lottie.host/ae15294d-82b8-44c7-a54d-5130f8b847b5/jXcvPSZbgB.lottie",
             url: "https://spin.nl/content/zicht-op-pensioen/",
